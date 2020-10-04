@@ -1,0 +1,21 @@
+{
+    "name": "akazakbaev/laminas-storage",
+    "description": "",
+    "keywords": [
+        "PHP"
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Akazakbaev\\LaminasStorage\\": "src/"
+        }
+    },
+    "extra": {
+        "zf": {
+            "module": "Akazakbaev\\LaminasStorage"
+        }
+    }
+}
